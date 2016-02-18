@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VideoDraw">
+      <UniqueIdentifier>{c11ffffc-af9c-4a7b-861a-fc2e671e231d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{c470504b-c344-45be-95f4-3ddd78715a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoCorrect">
+      <UniqueIdentifier>{18f6ff2d-1660-4737-a407-453402250d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoCorrect\Method">
+      <UniqueIdentifier>{f9b6d960-a775-4b1b-b43b-ff9bf27812a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\fishEyeDemo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fishEyeDemo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fishEyeDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fishEyeDemoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoDrawBase.h">
+      <Filter>VideoDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoWindowDraw.h">
+      <Filter>VideoDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFrame.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCorrect.h">
+      <Filter>VideoCorrect</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCorrectManager.h">
+      <Filter>VideoCorrect</Filter>
+    </ClInclude>
+    <ClInclude Include="FishEyeBase.h">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDownCorrect.h">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="PanoramaCorrect.h">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="FourAreaCorrect.h">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClInclude>
+    <ClInclude Include="AnyAreaCorrect.h">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fishEyeDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fishEyeDemoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoDrawBase.cpp">
+      <Filter>VideoDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoWindowDraw.cpp">
+      <Filter>VideoDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoFrame.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoCorrectManager.cpp">
+      <Filter>VideoCorrect</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoCorrect.cpp">
+      <Filter>VideoCorrect</Filter>
+    </ClCompile>
+    <ClCompile Include="FishEyeBase.cpp">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDownCorrect.cpp">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="PanoramaCorrect.cpp">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="FourAreaCorrect.cpp">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClCompile>
+    <ClCompile Include="AnyAreaCorrect.cpp">
+      <Filter>VideoCorrect\Method</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fishEyeDemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/2/16 15:46:42。
+     1>项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\mallocTest\mallocTest.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\mallocTest.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\mallocTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\mallocTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\mallocTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mallocTest.cpp
+         mallocTest.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mallocTest.exe.embed.manifest.res" Debug\mallocTest_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mallocTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.lib" /MACHINE:X86 Debug\mallocTest.exe.embed.manifest.res
+         Debug\mallocTest.obj
+         Debug\stdafx.obj
+       Manifest:
+         正在删除文件“Debug\mallocTest.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mallocTest.exe.embed.manifest" /manifest Debug\mallocTest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mallocTest.exe.embed.manifest.res" Debug\mallocTest_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mallocTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.lib" /MACHINE:X86 Debug\mallocTest.exe.embed.manifest.res
+         Debug\mallocTest.obj
+         Debug\stdafx.obj
+         mallocTest.vcxproj -> D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Debug\mallocTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\mallocTest.unsuccessfulbuild”。
+         正在对“Debug\mallocTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\mallocTest\mallocTest.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.83

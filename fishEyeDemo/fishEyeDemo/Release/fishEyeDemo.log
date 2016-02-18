@@ -1,0 +1,63 @@
+﻿生成启动时间为 2016/2/15 9:23:32。
+     1>项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\fishEyeDemo\fishEyeDemo.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\fishEyeDemo.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\fishEyeDemo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\fishEyeDemo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\fishEyeDemo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CvvImage.cpp FishEyeBase.cpp AnyAreaCorrect.cpp fishEyeDemo.cpp fishEyeDemoDlg.cpp UpDownCorrect.cpp VideoCorrect.cpp VideoCorrectManager.cpp VideoDrawBase.cpp VideoFrame.cpp VideoWindowDraw.cpp
+         CvvImage.cpp
+         FishEyeBase.cpp
+         AnyAreaCorrect.cpp
+     1>AnyAreaCorrect.cpp(155): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>AnyAreaCorrect.cpp(156): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>AnyAreaCorrect.cpp(196): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+         fishEyeDemo.cpp
+         fishEyeDemoDlg.cpp
+         UpDownCorrect.cpp
+     1>UpDownCorrect.cpp(23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>UpDownCorrect.cpp(35): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>UpDownCorrect.cpp(36): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>UpDownCorrect.cpp(37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>UpDownCorrect.cpp(118): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>UpDownCorrect.cpp(123): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>UpDownCorrect.cpp(175): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>UpDownCorrect.cpp(196): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+         VideoCorrect.cpp
+         VideoCorrectManager.cpp
+         VideoDrawBase.cpp
+         VideoFrame.cpp
+         VideoWindowDraw.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\fishEyeDemo.res" fishEyeDemo.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Release\fishEyeDemo.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d247.lib opencv_contrib247.lib opencv_core247.lib opencv_features2d247.lib opencv_flann247.lib opencv_gpu247.lib opencv_highgui247.lib opencv_imgproc247.lib opencv_legacy247.lib opencv_ml247.lib opencv_objdetect247.lib opencv_ts247.lib opencv_video247.lib opencv_nonfree247.lib opencv_ocl247.lib opencv_photo247.lib opencv_stitching247.lib opencv_superres247.lib opencv_videostab247.lib /MANIFEST /ManifestFile:"Release\fishEyeDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Release\fishEyeDemo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Release\fishEyeDemo.lib" /MACHINE:X86 Release\fishEyeDemo.res
+         Release\CvvImage.obj
+         Release\FishEyeBase.obj
+         Release\AnyAreaCorrect.obj
+         Release\fishEyeDemo.obj
+         Release\fishEyeDemoDlg.obj
+         Release\stdafx.obj
+         Release\UpDownCorrect.obj
+         Release\VideoCorrect.obj
+         Release\VideoCorrectManager.obj
+         Release\VideoDrawBase.obj
+         Release\VideoFrame.obj
+         Release\VideoWindowDraw.obj
+         正在生成代码
+         已完成代码的生成
+         fishEyeDemo.vcxproj -> D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Release\fishEyeDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\Release\fishEyeDemo.exe;#1" /manifest Release\fishEyeDemo.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\fishEyeDemo.unsuccessfulbuild”。
+         正在对“Release\fishEyeDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\用户目录\我的文档\Visual Studio 2010\Projects\fishEyeDemo\fishEyeDemo\fishEyeDemo.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.41
